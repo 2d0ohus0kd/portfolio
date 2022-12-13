@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="script.js"></script>
     <title>Portfolio</title>
 </head>
@@ -25,43 +26,39 @@
 
 
 <body>
-    <!-- <nav class="navbar">
-        <a class="navbar-item" href="#Home">HOME</a>
-        <a class="navbar-item" href="#Redesign">REDESIGN</a>
-        <a class="navbar-item" href="#InteractiveDesign">ITERATIVE DESIGN</a>
-        <a class="navbar-item" href="#Development">DEVELOPMENT</a>
-        <a class="navbar-item" href="#Puns">PUNS?</a>
-    </nav> -->
-    <h1 id="name">Name Placeholder</h1>
+    <header>
+        <h1 id="name">Name Placeholder</h1>
+    </header>
+    
     <div id="app">
         <div class="blurb">
             <p>Hey there <span class="wave">👋</span>!</p>
-            <p>I'm a CS student at Brown University, and consider myself a pun enthusiast. I take joy in finding intersections between tech and creativity.</p>
-            <p>Below is some of my work across projects from classes in UI/UX and Digital Media</p>
+            <p>I'm a third-year CS and Modern Culture & Media student at Brown University. I take joy in finding intersections between tech and creativity, and strive to design minimalistic user experiences. <br> Below is some of my work across projects from classes in UI/UX and Digital Media. Enjoy!</p>
         </div>
         <br /><br /><br /><br /><br />
         <div class="slideshow-container">
             <div class="mySlides fade">
-                <img src="assets/iterative_design.png" style="max-height: 500px" class="gifs" />
                 <div class="text">
                     <h2>Iterative Design</h2>
-                    <p>A group project building a website and iterating over feedback.</p>
+                    <p>A group project building a website and iterating over feedback. <br> For more context read the opening paragraph in the screenshot below.</p>
                 </div>
+                <img src="assets/iterative_design.png" style="max-height: 500px" class="gifs" />
                 <a class="portfolio" href="https://browncsaccount.github.io/raven/" target="_blank">Link</a>
             </div>
             <div class="mySlides fade">
                 <img src="assets/responsive_redesign.png" style="max-height: 500px" class="gifs" />
                 <div class="text">
                     <h2>Responsive Redesign</h2>
-                    <p>A renovation of an existing website for Madrid European Bakery.</p>
+                    <p>A renovation of an existing website for Madrid European Bakery, responsive across mobile, desktop and tablet devices.</p>
                 </div>
                 <a class="portfolio" href="https://2d0ohus0kd.github.io/responsive_redesign_handin_final/" target="_blank">Link</a>
             </div>
             <div class="mySlides fade">
-                <img src="assets/development.png" style="max-height: 500px" class="gifs" />
+                <img src="assets/development_portfolio_screenshot.png" style="max-height: 500px" class="gifs" />
                 <div class="text">
                     <h2>Development</h2>
-                    <p>A React website for bakery item purchases with aggregator, filter and sort functionality.</p>
+                    <p>A React website for bakery item purchases with aggregator, filter and sort functionality.
+                        <!-- <br> Add/remove items to a cart, track its total price, and sort and filter across various criteria as you navigate through sweet and savory delicacies. </p> -->
                 </div>
                 <a class="portfolio" href="https://2d0ohus0kd.github.io/development_cs1300/" target="_blank">Link</a>
             </div>
@@ -69,9 +66,9 @@
                 <img src="assets/puns.png" style="max-height: 500px" class="gifs" />
                 <div class="text">
                     <h2>Punderstorm</h2>
-                    <p>An experimental hypertextual story with a witty twist.</p>
+                    <p>An experimental hypertextual story with a witty twist. <br> Click through the hyperlinks and make your way through a wonderful land of puns, or one might say a "punderland"</p>
                 </div>
-                <a class="portfolio" href="https://2d0ohus0kd.github.io/puns" target="_blank">Link</a>
+                <a class="portfolio" href="https://2d0ohus0kd.github.io/punderstorm_hand_in/" target="_blank">Link</a>
             </div>
 
 
@@ -86,6 +83,10 @@
             <span class="dot" onclick="currentSlide(4)"></span>
           </div>
     </div>
+    <footer>
+        <a class="fa fa-linkedin" href="https://www.linkedin.com/" target="_blank"></a>
+        <a class="fa fa-github" href="https://github.com/" target="_blank"></a>
+    </footer>
 </body>
 
 </html>
