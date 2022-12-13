@@ -1,9 +1,18 @@
 body {
-  background: #F8F8F8;
+  /* background: #FCEFD9; */
+  /* background: #faf9f6; */
+  background: #fbf8f06d;
+  /* background: #FEFEF1; */
+  /* background-image: linear-gradient(to top, #F8F8F8, #fafaced0); */
+  /* FEFEF1 */
+  /* background-image: linear-gradient(to right, #D7E1EC, #FFFFFF); */
+  /* background-image: linear-gradient(to right, #f6f2f2, #D9D9D9); */
+  /* background-image: linear-gradient(to right, #E9E9E9, #F6F6F6); */
   font-family: 'Questrial', sans-serif;
   margin: 0px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 1500px;
 }
 
 /* handwave emoji sourced from Jake Jarvis @https://jarv.is/notes/css-waving-hand-emoji/ */
@@ -32,7 +41,7 @@ header {
   /* font-size: 20px; */
 }
 #name {
-  /* margin-left: 75px; */
+  margin-left: 5.5vw;
   font-family: 'Tenor Sans', sans-serif;
   font-size: 1.6vw;
 }
@@ -65,7 +74,7 @@ body {
   font-family: "Alkalami", serif;
   padding: 0px;
   width: 100%;
-  height: 100%;
+  height: 1350px;
 }
 
 h1, 
@@ -90,7 +99,10 @@ h3 {
 .mySlides {
   display: none;
 }
-
+/* .gifs {
+  border: double;
+  padding: 20px;
+} */
 .prev,
 .next {
   cursor: pointer;
@@ -120,20 +132,33 @@ h3 {
   background-color: rgba(0, 0, 0, 0.8);
 }
 .blurb {
-  background: #FAF9F6;
+  background: white;
+  /* background: black; */
+  /* background: #F8F8F8; */
+  /* background: #FAF9F6; */
+  /* background: white; */
+  /* background: linear-gradient(to bottom, #FFFAF0 0%, #F0EBE1 100%); */
+  /* background: linear(to bottom, #fdfbfb, #ebedee); */
+  /* background: linear-gradient(to right, #FDFBFB 0%, #EBEDEE 100%); */
+  /* background: white; */
   font-size: 16px;
   font-weight: 500;
-  color: #36454F;
-  margin-left: 400px;
-  margin-right: 400px;
+  /* color: #36454F; */
+  margin-left: 14vw;
+  margin-right: 14vw;
+  min-width: 1000px;
+  /* width: 0%; */
   margin-bottom: 60px;
   font-family: "Alkalami", serif;
+  color:black;
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
   text-align: center;
   line-height: 2;
+  /* border: double; */
+  padding: 10px;
 }
 .text {
   /* font-family: "Dancing Script", cursive;
@@ -203,17 +228,18 @@ h3 {
   margin-right: auto;
 }
 footer {
-  /* background-color: #E3EEF2; */
+  /* background-color: #F8F8F8; */
   /* border-top: 2px solid  #E2F3F3; */
   position: absolute;
-  bottom: -300px;
+  bottom: -600px;
   padding: 10px;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  margin-left: 8vw;
+  margin-left: 12vw;
+  margin-bottom: 10px;
 }
 
 .fa {
